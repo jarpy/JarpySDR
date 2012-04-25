@@ -11916,8 +11916,8 @@ NS Package M08A</description>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
 <part name="C10" library="resistor" deviceset="C-EU" device="025-024X044" value="0.1u"/>
-<part name="C8" library="resistor" deviceset="C-EU" device="050-045X075" value="0.1u"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="050-045X075" value="0.1u"/>
+<part name="C8" library="resistor" deviceset="C-EU" device="050-025X075" value="0.1u"/>
+<part name="C11" library="resistor" deviceset="C-EU" device="050-025X075" value="0.1u"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value="2.2k"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="025-024X044" value="2n"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="025-024X044" value="2n"/>
@@ -11947,8 +11947,8 @@ NS Package M08A</description>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="ANTENNA" library="SparkFun" deviceset="SMA_EDGE" device=""/>
 <part name="U1" library="SparkFun" deviceset="AUDIO-JACK" device="PTH"/>
-<part name="C18" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
-<part name="C19" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
+<part name="C18" library="resistor" deviceset="C-EU" device="050-025X075" value="0.1u"/>
+<part name="C19" library="resistor" deviceset="C-EU" device="050-025X075" value="0.1u"/>
 <part name="R9" library="resistor" deviceset="R-US_" device="0207/2V" value="10k"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 </parts>
@@ -12623,16 +12623,7 @@ NS Package M08A</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,78.74,66.04,U$1,VCC,+5V,,,"/>
-<approved hash="104,1,78.74,48.26,U$1,VEE,GND,,,"/>
-<approved hash="104,1,38.1,66.04,IC1P,VCC,+5V,,,"/>
-<approved hash="104,1,137.16,88.9,IC2P,V+,+12V,,,"/>
-<approved hash="104,1,137.16,73.66,IC2P,V-,-12V,,,"/>
-<approved hash="104,1,185.42,86.36,IC4P,V+,+12V,,,"/>
-<approved hash="104,1,185.42,71.12,IC4P,V-,-12V,,,"/>
-<approved hash="115,1,-32.6305,107.787,VEE-IN,,,,,"/>
 <approved hash="115,1,-17.1027,30.6747,I2C,,,,,"/>
-<approved hash="115,1,221.742,43.6795,U1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
