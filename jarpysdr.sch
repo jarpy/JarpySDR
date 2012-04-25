@@ -11921,12 +11921,10 @@ NS Package M08A</description>
 <part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value="2.2k"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="025-024X044" value="2n"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="025-024X044" value="2n"/>
-<part name="P-1" library="supply1" deviceset="-12V" device=""/>
 <part name="P-2" library="supply1" deviceset="-12V" device=""/>
 <part name="VEE-IN" library="SparkFun" deviceset="JUMPER-2" device="PTH" value="-12v"/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="C14" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="10u"/>
-<part name="C15" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="OUT_AMP" library="linear" deviceset="TL072" device="P" value="TL072"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="0207/2V" value="120k"/>
@@ -12002,13 +12000,11 @@ NS Package M08A</description>
 <instance part="R3" gate="G$1" x="66.04" y="93.98" rot="R180"/>
 <instance part="C12" gate="G$1" x="142.24" y="20.32" rot="R90"/>
 <instance part="C13" gate="G$1" x="132.08" y="53.34" rot="R90"/>
-<instance part="P-1" gate="1" x="137.16" y="66.04"/>
 <instance part="P-2" gate="1" x="-35.56" y="93.98"/>
 <instance part="VEE-IN" gate="A" x="-33.02" y="106.68"/>
 <instance part="SUPPLY14" gate="GND" x="-27.94" y="93.98"/>
 <instance part="C14" gate="G$1" x="-30.48" y="101.6" rot="R270"/>
-<instance part="C15" gate="G$1" x="157.48" y="63.5" rot="R180"/>
-<instance part="SUPPLY3" gate="GND" x="157.48" y="55.88"/>
+<instance part="SUPPLY3" gate="GND" x="132.08" y="68.58"/>
 <instance part="OUT_AMP" gate="A" x="190.5" y="78.74"/>
 <instance part="OUT_AMP" gate="B" x="190.5" y="40.64"/>
 <instance part="OUT_AMP" gate="P" x="190.5" y="78.74"/>
@@ -12183,11 +12179,6 @@ NS Package M08A</description>
 <pinref part="C14" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="157.48" y1="60.96" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
-</segment>
-<segment>
 <wire x1="175.26" y1="58.42" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
@@ -12273,6 +12264,12 @@ NS Package M08A</description>
 <wire x1="220.98" y1="45.72" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SLEEVE"/>
 <wire x1="223.52" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="DIFF_AMP" gate="P" pin="V-"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<wire x1="137.16" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="73.66" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -12488,16 +12485,6 @@ NS Package M08A</description>
 </segment>
 </net>
 <net name="-12V" class="0">
-<segment>
-<wire x1="137.16" y1="73.66" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="71.12" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="68.58" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
-<junction x="137.16" y="71.12"/>
-<pinref part="DIFF_AMP" gate="P" pin="V-"/>
-<pinref part="P-1" gate="1" pin="-12V"/>
-<pinref part="C15" gate="G$1" pin="2"/>
-</segment>
 <segment>
 <wire x1="-33.02" y1="104.14" x2="-35.56" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="104.14" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
