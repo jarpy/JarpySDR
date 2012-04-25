@@ -11887,10 +11887,10 @@ NS Package M08A</description>
 <part name="VCC-IN" library="SparkFun" deviceset="JUMPER-2" device="PTH" value="+12V"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="0207/2V" value="12k"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0207/2V" value="12k"/>
-<part name="C0" library="resistor" deviceset="C-EU" device="025-024X044" value="22n"/>
-<part name="C1" library="resistor" deviceset="C-EU" device="025-024X044" value="22n"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="025-024X044" value="22n"/>
-<part name="C3" library="resistor" deviceset="C-EU" device="025-024X044" value="22n"/>
+<part name="C0" library="resistor" deviceset="C-EU" device="025-024X044" value="15n"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="025-024X044" value="15n"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="025-024X044" value="15n"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="025-024X044" value="15n"/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
@@ -11929,10 +11929,10 @@ NS Package M08A</description>
 <part name="C15" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="OUT_AMP" library="linear" deviceset="TL072" device="P" value="TL072"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="0207/2V" value="22k"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="0207/2V" value="120k"/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="P-3" library="supply1" deviceset="-12V" device=""/>
-<part name="R6" library="resistor" deviceset="R-US_" device="0207/2V" value="22k"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="0207/2V" value="120k"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="0207/2V" value="2.2k"/>
 <part name="R8" library="resistor" deviceset="R-US_" device="0204/7" value="2.2k"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
@@ -11949,8 +11949,8 @@ NS Package M08A</description>
 <part name="U1" library="SparkFun" deviceset="AUDIO-JACK" device="PTH"/>
 <part name="C18" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
 <part name="C19" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1u"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="0207/2V" value="100k"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="0204/7" value="100k"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="0207/2V" value="10k"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="0204/7" value="10k"/>
 </parts>
 <sheets>
 <sheet>
