@@ -1,6 +1,6 @@
 JarpySDR - A Tayloe Detector board for Software Defined Radio.
 
-This a simple SDR frontend using all through-hole components.
+This is a simple SDR frontend using all through-hole components.
 
 It requires an off-board square-wave oscillator/clock running at F*4, where F is the radio frequency to be recieved. The design is pin compatible with WA6UFQ's Si570 oscillator card, and provides an I2C pass-through header with which to program the Si570.
 
